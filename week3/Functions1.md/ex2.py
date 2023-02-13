@@ -1,5 +1,6 @@
 f = int(input())
+def c(f):
+    return round((f - 32) * 5 / 9)
 
-
-c = int(round((f - 32) * 5 / 9))
-print(c)
+f = c(f)
+print(f)
