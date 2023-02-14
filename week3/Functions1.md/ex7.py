@@ -10,5 +10,4 @@ def has_33(list):
     return False
 
 a = [int(s) for s in input().split()]
-
 print(has_33(a))
